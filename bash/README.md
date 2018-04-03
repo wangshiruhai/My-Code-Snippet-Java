@@ -37,18 +37,3 @@ bash/startup-web.sh
 bash/shutdown-web.sh
 
 ------------------------------
-
-[端口使用情况]
-8009 service AJP
-8092 service http
-8005 service shutdown
-
-8109 web AJP
-8091 web http
-19196 web socket
-8105 web shutdown
-
-8093 api-webapp HTTP
-8209 api-webapp AJP
-8094 api-webapp socket
-8205 api-webapp shutdown
