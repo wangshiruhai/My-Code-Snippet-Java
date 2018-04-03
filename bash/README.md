@@ -3,15 +3,6 @@
 * service[dubbo 服务组件]
 * webapp[提供前台服务对接接口]
 
-整体架构：
-brower-->DNS-->Nginx-->应用服务器-->DB
-                           |       |
-                          Cache-----
-
-| 1          |    2  | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| brower ------- dns------nginx-----应用服务器------DB------- |
-
-
 [部署api]
 bash/deploy-api.sh
 
