@@ -8,40 +8,47 @@ brower-->DNS-->Nginx-->应用服务器-->DB
                            |       |
                           Cache-----
 
+graph LR
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C[Let me think]
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+E -->|Three| F[Cache]
+
+F -->|FOUR| D[Laptop]
 
 [部署api]
-/home/admin/bash/deploy-api.sh
+bash/deploy-api.sh
 
 [部署service]
-/home/admin/bash/deploy-service.sh
+bash/deploy-service.sh
 
 [部署web]
-/home/admin/bash/deploy-web.sh
+bash/deploy-web.sh
 
 
 --------------------------------
 [启动api-webapp]
-
-/home/admin/bash/startup-api.sh
+bash/startup-api.sh
 
 [停止api-webapp]
-/home/admin/bash/shutdown-api.sh
+bash/shutdown-api.sh
 
 --------------------------------
 
 [启动service]
-/home/admin/bash/startup-service.sh
+bash/startup-service.sh
 
 [停止service]
-/home/admin/bash/shutdown-service.sh
+bash/shutdown-service.sh
 
 --------------------------------
 
 [启动web]
-/home/admin/bash/startup-web.sh
+bash/startup-web.sh
 
 [停止web]
-/home/admin/bash/shutdown-web.sh
+bash/shutdown-web.sh
 
 ------------------------------
 
