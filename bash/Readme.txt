@@ -1,4 +1,15 @@
-﻿[发布api]
+###发布脚本包含三个模块：
+* api[提供对其它部门的统一接口]
+* service[dubbo 服务组件]
+* webapp[提供前台服务对接接口]
+整体架构：
+
+brower-->DNS-->Nginx-->应用服务器-->DB
+                           |       |
+                          Cache-----
+
+
+[发布api]
 /home/admin/bash/deploy-api.sh
 
 [发布service]
